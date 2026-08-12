@@ -2,7 +2,8 @@
 
 **Cryptographic Belief Settlement Protocol on Ethereum Sepolia**
 
-[![Live Demo](https://img.shields.io/badge/Live-veritas--market.pages.dev-10d98a?style=flat-square&logo=cloudflare)](https://veritas-market.pages.dev)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-veritas--market--ali.vercel.app-10d98a?style=flat-square&logo=vercel)](https://veritas-market-ali.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-mohammadali--2000%2FVeritasMarket-111520?style=flat-square&logo=github)](https://github.com/mohammadali-2000/VeritasMarket)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![Chain](https://img.shields.io/badge/Network-Ethereum%20Sepolia-627EEA?style=flat-square&logo=ethereum)](https://sepolia.etherscan.io)
 [![Stack](https://img.shields.io/badge/Stack-Next.js%2016%20%7C%20Solidity%20%7C%20Foundry%20%7C%20Swarm-111520?style=flat-square)](#stack)
@@ -118,9 +119,11 @@ forge test -vv
 
 ## Deployment
 
-The frontend is deployed on **Cloudflare Pages** (free plan):
+The frontend is deployed on **Vercel** (free plan, auto-deploys on every push to `main`):
 
-**Live URL**: [https://veritas-market.pages.dev](https://veritas-market.pages.dev)
+**Live URL**: [https://veritas-market-ali.vercel.app](https://veritas-market-ali.vercel.app)
+
+**GitHub**: [github.com/mohammadali-2000/VeritasMarket](https://github.com/mohammadali-2000/VeritasMarket)
 
 Smart contracts are deployed on **Ethereum Sepolia** testnet.
 
