@@ -10,16 +10,16 @@ export function SiteFooter() {
         <Link href="/" className="site-footer-brand">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/brand-mark.svg" alt="" width={24} height={24} />
-          <span>TruthMarket</span>
+          <span>VeritasMarket</span>
         </Link>
         <nav className="site-footer-nav">
-          <Link href="/">Markets</Link>
-          <Link href="/my-markets">Yours</Link>
-          <Link href="/deploy">Launch</Link>
-          <Link href="/jurors">For hackathon judges</Link>
+          <Link href="/">Explore</Link>
+          <Link href="/my-markets">My Positions</Link>
+          <Link href="/deploy">Create Market</Link>
+          <Link href="/jurors">Protocol Judges</Link>
         </nav>
         <p className="site-footer-meta">
-          <span>Random-jury belief resolution.</span>
+          <span>Cryptographic Belief Settlement Protocol.</span>
           <span>·</span>
           <span>{chain.name}</span>
           <span>·</span>

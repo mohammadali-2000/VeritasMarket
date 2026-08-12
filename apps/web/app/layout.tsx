@@ -26,20 +26,20 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TruthMarket - Random-jury belief resolution",
+  title: "VeritasMarket — Cryptographic Belief Settlement Protocol",
   description:
-    "Stake on immutable claim/rules documents. Votes stay hidden until reveal, SpaceComputer randomness selects jurors, and the selected jury resolves the market.",
+    "Stake on immutable claims. Cryptographic commit-reveal voting, SpaceComputer VRF jury selection, and automated stake slashing for dishonest jurors.",
   openGraph: {
-    title: "TruthMarket - Random-jury belief resolution",
+    title: "VeritasMarket — Cryptographic Belief Settlement Protocol",
     description:
-      "Stake on immutable claim/rules documents. Votes stay hidden until reveal, then selected jurors resolve the market.",
+      "Decentralized prediction markets with cryptographic commit-reveal and random VRF jury resolution.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TruthMarket - Random-jury belief resolution",
+    title: "VeritasMarket — Cryptographic Belief Settlement Protocol",
     description:
-      "Stake on immutable claim/rules documents, private commit-reveal, and random selected jurors.",
+      "Immutable claims, private commit-reveal voting, VRF jury selection, and 20% stake slashing.",
   },
 };
 
@@ -47,7 +47,7 @@ export const viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#f6f8fb",
+  themeColor: "#0a0c14",
 };
 
 export default function RootLayout({

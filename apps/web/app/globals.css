@@ -1,55 +1,56 @@
 :root {
-  color-scheme: light;
-  /* Surfaces */
-  --bg: #f5f6fb;
-  --bg-deep: #eaedf7;
-  --surface: #ffffff;
-  --surface-soft: #f1f3fb;
-  --surface-elev: #fbfcff;
-  --line: #e4e8f1;
-  --line-strong: #cbd2e0;
+  color-scheme: dark;
+  /* Surfaces — deep obsidian dark */
+  --bg: #0a0c14;
+  --bg-deep: #060810;
+  --surface: #111520;
+  --surface-soft: #161a28;
+  --surface-elev: #1c2134;
+  --line: #1e2436;
+  --line-strong: #2a3050;
 
   /* Ink */
-  --text: #0f1422;
-  --text-soft: #2a3247;
-  --muted: #6b7488;
-  --muted-strong: #4d556a;
+  --text: #e8edf8;
+  --text-soft: #b0bacf;
+  --muted: #6b7899;
+  --muted-strong: #8e9ab5;
 
-  /* Brand */
-  --pop: #6c4cff;
-  --pop-soft: #ede8ff;
-  --pop-deep: #4a2fdc;
-  --coin: #ffd84a;
-  --coin-soft: #fff4c2;
-  --focus: #4d6dff;
+  /* Brand — emerald accent instead of purple */
+  --pop: #10d98a;
+  --pop-soft: #0d2e24;
+  --pop-deep: #0aaf6e;
+  --coin: #f5c542;
+  --coin-soft: #2a2200;
+  --focus: #00c9a7;
 
   /* Outcomes */
-  --up: #16a37a;
-  --up-soft: #d8f5e8;
-  --up-deep: #0e7a5a;
-  --down: #e0405f;
-  --down-soft: #ffe2e8;
-  --down-deep: #b91c41;
+  --up: #10d98a;
+  --up-soft: #0d2e24;
+  --up-deep: #0aaf6e;
+  --down: #f4445a;
+  --down-soft: #2e0d14;
+  --down-deep: #c4233c;
 
   /* Accents */
-  --amber: #c97a09;
-  --amber-soft: #fff0c9;
+  --amber: #f5c542;
+  --amber-soft: #2a2200;
 
   /* Radii / shadows */
   --radius: 12px;
   --radius-sm: 8px;
   --radius-lg: 18px;
-  --shadow-xs: 0 1px 2px rgba(15, 20, 34, 0.04);
-  --shadow-sm: 0 2px 6px rgba(15, 20, 34, 0.05), 0 1px 2px rgba(15, 20, 34, 0.04);
-  --shadow-md: 0 8px 22px -10px rgba(15, 20, 34, 0.18), 0 2px 6px rgba(15, 20, 34, 0.05);
-  --shadow-lg: 0 20px 48px -20px rgba(15, 20, 34, 0.28), 0 4px 10px rgba(15, 20, 34, 0.06);
-  --shadow-pop: 0 12px 32px -12px rgba(108, 76, 255, 0.45);
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6), 0 2px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.7), 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-pop: 0 12px 32px rgba(16, 217, 138, 0.3);
 
   --gradient-hero:
-    radial-gradient(120% 100% at 0% 0%, rgba(108, 76, 255, 0.16) 0%, transparent 55%),
-    radial-gradient(100% 80% at 100% 0%, rgba(255, 216, 74, 0.22) 0%, transparent 60%),
-    linear-gradient(135deg, #ffffff 0%, #f5f3ff 60%, #fffbe6 100%);
+    radial-gradient(120% 100% at 0% 0%, rgba(16, 217, 138, 0.12) 0%, transparent 55%),
+    radial-gradient(100% 80% at 100% 0%, rgba(0, 201, 167, 0.1) 0%, transparent 60%),
+    linear-gradient(135deg, #0a0c14 0%, #0d1220 60%, #0a1018 100%);
 }
+
 
 * {
   box-sizing: border-box;
@@ -79,14 +80,14 @@ body {
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
-  background: linear-gradient(180deg, #f7f7fc 0%, #eef0f8 100%);
+  background: linear-gradient(180deg, #080a12 0%, #0a0c14 100%);
 }
 
 .site-bg-orb {
   position: absolute;
   border-radius: 50%;
   filter: blur(80px);
-  opacity: 0.55;
+  opacity: 0.35;
 }
 
 .site-bg-orb-1 {
@@ -94,7 +95,7 @@ body {
   height: 520px;
   top: -160px;
   left: -120px;
-  background: radial-gradient(circle, rgba(108, 76, 255, 0.45), rgba(108, 76, 255, 0) 70%);
+  background: radial-gradient(circle, rgba(16, 217, 138, 0.4), rgba(16, 217, 138, 0) 70%);
 }
 
 .site-bg-orb-2 {
@@ -102,19 +103,20 @@ body {
   height: 460px;
   top: -80px;
   right: -120px;
-  background: radial-gradient(circle, rgba(255, 216, 74, 0.55), rgba(255, 216, 74, 0) 70%);
+  background: radial-gradient(circle, rgba(0, 201, 167, 0.35), rgba(0, 201, 167, 0) 70%);
 }
 
 .site-bg-grid {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(15, 20, 34, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 20, 34, 0.035) 1px, transparent 1px);
+    linear-gradient(rgba(16, 217, 138, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 217, 138, 0.04) 1px, transparent 1px);
   background-size: 32px 32px;
   mask-image: linear-gradient(180deg, black 0%, transparent 80%);
   -webkit-mask-image: linear-gradient(180deg, black 0%, transparent 80%);
 }
+
 
 h1,
 h2,

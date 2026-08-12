@@ -70,6 +70,7 @@ const swarmImageGateways = [
 const nextConfig = {
   transpilePackages: ["@truth-market/swarm-kv", "@truth-market/swarm-verified-fetch"],
   images: {
+    unoptimized: true,
     remotePatterns: swarmImageGateways,
   },
   turbopack: {
