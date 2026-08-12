@@ -1,0 +1,31 @@
+# Local agent/editor state. Repo docs are the portable source of truth.
+.codex/
+.claude/
+.agents/*
+!.agents/skills/
+!.agents/skills/**
+.superstack/
+.vercel/
+
+# Environment and local runtime state.
+.env
+.env.*
+!.env.example
+packages/*/.e2e/
+packages/*/test/fixtures/*.fixture.json
+*.local
+*.log
+
+# Common dependency/build output.
+node_modules/
+.pnpm-store/
+.next/
+dist/
+build/
+out/
+cache/
+packages/swarm-kv/.env.swarm
+packages/swarm-kv/.e2e/live-registry-references.json
+.pnpm-store/v10/projects/c55c163961ef2590ab06789217ee7cd3
+.pnpm-store/v10/projects/c03888112fe44997cf5e5f5ba9196597
+tsconfig.tsbuildinfo

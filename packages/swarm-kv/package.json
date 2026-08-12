@@ -1,0 +1,49 @@
+{
+  "name": "@veritas-market/swarm-kv",
+  "version": "0.1.0",
+  "description": "Swarm-backed key-value store with client-side verification hooks.",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "browser": "./dist/index.js",
+      "node": {
+        "import": "./dist/index.js",
+        "require": "./dist/index.cjs"
+      },
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "browser": "./dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "swarm",
+    "bee",
+    "kv",
+    "key-value",
+    "client-side-verification",
+    "veritas-market"
+  ],
+  "dependencies": {
+    "@veritas-market/swarm-verified-fetch": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": ">=20.0.0 <25",
+    "tsup": ">=8.0.0 <9",
+    "typescript": ">=5.0.0 <6",
+    "vitest": ">=3.0.0 <5"
+  }
+}
