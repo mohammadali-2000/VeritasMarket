@@ -3,7 +3,7 @@ import {
   hexToBytes,
   makeContentAddressedChunk,
   type ContentAddressedChunk
-} from "@truth-market/swarm-verified-fetch";
+} from "@veritas-market/swarm-verified-fetch";
 
 import type { FetchLike, FetchOptions, FetchResponseLike } from "../src/index.js";
 

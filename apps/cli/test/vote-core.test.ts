@@ -6,7 +6,7 @@ import {
   type Hex,
   stringToHex,
 } from "viem";
-import { makeContentAddressedChunk } from "@truth-market/swarm-verified-fetch";
+import { makeContentAddressedChunk } from "@veritas-market/swarm-verified-fetch";
 import { privateKeyToAccount } from "viem/accounts";
 import { foundry } from "viem/chains";
 import { commitVoteCore } from "../src/commands/vote-core.js";

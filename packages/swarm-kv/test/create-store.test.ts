@@ -2,7 +2,7 @@ import { gzipSync } from "node:zlib";
 
 import { describe, expect, expectTypeOf, it } from "vitest";
 
-import { makeContentAddressedChunk } from "@truth-market/swarm-verified-fetch";
+import { makeContentAddressedChunk } from "@veritas-market/swarm-verified-fetch";
 
 import {
   DEFAULT_GATEWAY_URL,

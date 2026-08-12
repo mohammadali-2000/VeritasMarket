@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { SwarmGatewayError, SwarmVerificationError } from "@truth-market/swarm-verified-fetch";
+import { SwarmGatewayError, SwarmVerificationError } from "@veritas-market/swarm-verified-fetch";
 
 import {
   SwarmKvConfigError,

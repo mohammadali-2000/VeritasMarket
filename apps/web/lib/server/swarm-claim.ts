@@ -1,6 +1,6 @@
 import "server-only";
 
-import { createSwarmKvStore, fixedPostage, type JsonValue } from "@truth-market/swarm-kv";
+import { createSwarmKvStore, fixedPostage, type JsonValue } from "@veritas-market/swarm-kv";
 import { hexToBytes, isHex, toHex, type Hex } from "viem";
 
 export const CLAIM_DOCUMENT_SCHEMA = "truthmarket.claim.v1";

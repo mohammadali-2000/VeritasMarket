@@ -8,7 +8,7 @@ import {
   normalizeHex,
   type SwarmVerifiedFetchClient,
   type VerifiedBytesResponse
-} from "@truth-market/swarm-verified-fetch";
+} from "@veritas-market/swarm-verified-fetch";
 
 import {
   SwarmKvAbortError,

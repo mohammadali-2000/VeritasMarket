@@ -7,7 +7,7 @@ import {
 } from "../../../../lib/apify-market-generator";
 import { curateWithOpenRouter } from "../../../../lib/server/openrouter-market-curator";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 type GenerateRequest = {
   policy?: GeneratorPolicy;

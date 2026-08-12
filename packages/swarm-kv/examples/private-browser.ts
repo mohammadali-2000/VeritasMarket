@@ -1,4 +1,4 @@
-import { createSwarmKvStore, fixedPostage } from "@truth-market/swarm-kv";
+import { createSwarmKvStore, fixedPostage } from "@veritas-market/swarm-kv";
 
 declare global {
   interface Window {

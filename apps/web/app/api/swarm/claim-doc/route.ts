@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { loadClaimDocument, storeClaimDocument } from "../../../../lib/server/swarm-claim";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);

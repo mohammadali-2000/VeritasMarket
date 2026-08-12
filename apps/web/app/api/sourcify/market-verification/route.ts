@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import { isAddress, type Address } from "viem";
 import { getChainId, getPublicClient } from "../../../../lib/server/viem";
 import { readRegistryImplementation, verifyMarketCloneContract } from "../../../../lib/server/sourcify";

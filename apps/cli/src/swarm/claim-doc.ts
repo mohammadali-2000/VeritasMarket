@@ -1,4 +1,4 @@
-import { createSwarmKvStore, fixedPostage, type FetchLike, type JsonValue } from "@truth-market/swarm-kv";
+import { createSwarmKvStore, fixedPostage, type FetchLike, type JsonValue } from "@veritas-market/swarm-kv";
 import { hexToBytes, isHex, stringToHex, type Hex } from "viem";
 
 export const CLAIM_DOCUMENT_SCHEMA = "truthmarket.claim.v1";

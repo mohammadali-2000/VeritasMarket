@@ -17,6 +17,10 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "paths": {
+      "@veritas-market/swarm-kv": ["../../packages/swarm-kv/src/index.ts"],
+      "@veritas-market/swarm-verified-fetch": ["../../packages/swarm-verified-fetch/src/index.ts"]
+    },
     "plugins": [
       {
         "name": "next"

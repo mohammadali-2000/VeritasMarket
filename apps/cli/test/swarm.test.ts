@@ -3,7 +3,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { bytesToHex, keccak256, stringToHex } from "viem";
-import { makeContentAddressedChunk } from "@truth-market/swarm-verified-fetch";
+import { makeContentAddressedChunk } from "@veritas-market/swarm-verified-fetch";
 import { foundry } from "viem/chains";
 import { loadClaimDocument, referenceUrl } from "../src/swarm/claim-doc.js";
 import {

@@ -68,7 +68,7 @@ const swarmImageGateways = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@truth-market/swarm-kv", "@truth-market/swarm-verified-fetch"],
+  transpilePackages: ["@veritas-market/swarm-kv", "@veritas-market/swarm-verified-fetch"],
   images: {
     unoptimized: true,
     remotePatterns: swarmImageGateways,
@@ -76,8 +76,8 @@ const nextConfig = {
   turbopack: {
     root: repoRoot,
     resolveAlias: {
-      "@truth-market/swarm-kv": "../../packages/swarm-kv/dist/index.js",
-      "@truth-market/swarm-verified-fetch":
+      "@veritas-market/swarm-kv": "../../packages/swarm-kv/dist/index.js",
+      "@veritas-market/swarm-verified-fetch":
         "../../packages/swarm-verified-fetch/dist/index.js",
       "@noble/curves/secp256k1.js": "./node_modules/@noble/curves/secp256k1.js",
       "@noble/hashes/sha3.js": "./node_modules/@noble/hashes/sha3.js",

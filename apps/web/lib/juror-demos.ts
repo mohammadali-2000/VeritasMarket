@@ -183,7 +183,7 @@ export const jurorDemos: JurorDemo[] = [
     sponsor: "Swarm",
     status: "Package shipped on npm + wired into TruthMarket",
     summary:
-      "@truth-market/swarm-verified-fetch — pull Swarm data through any gateway and prove it locally. The same trust check Bee does internally, packaged for any TS/JS app.",
+      "@veritas-market/swarm-verified-fetch — pull Swarm data through any gateway and prove it locally. The same trust check Bee does internally, packaged for any TS/JS app.",
     fitTagline: "Download from anywhere. Verify locally. Trust the hash.",
     fit:
       "Running a full Bee node is not realistic for browsers, mobile apps, or lightweight agents — and trusting random gateways is not good enough when bytes control real markets. TruthMarket stores claim/rules on Swarm, and Verified Fetch proves the rules a user sees are the rules the contract referenced — before the stake button enables.",
@@ -210,7 +210,7 @@ export const jurorDemos: JurorDemo[] = [
     ],
     apiExample: {
       title: "API usage: verified claim/rules fetch",
-      code: `import { verifiedFetch } from "@truth-market/swarm-verified-fetch";
+      code: `import { verifiedFetch } from "@veritas-market/swarm-verified-fetch";
 
 const response = await verifiedFetch(
   "bzz://<manifest-reference>/claim-rules.json",
@@ -303,7 +303,7 @@ console.log(response.contentHash, rules.title);`,
       headline: "Prove the rules users see are the rules they stake on.",
       body: "Install the package, point it at a market's claim reference, watch it fail loud on tampered bytes.",
       primaryLabel: "Open npm package",
-      primaryHref: "https://www.npmjs.com/package/@truth-market/swarm-verified-fetch",
+      primaryHref: "https://www.npmjs.com/package/@veritas-market/swarm-verified-fetch",
       secondaryLabel: "Read package docs",
       secondaryHref:
         "https://github.com/schaier-io/eth2026/tree/main/packages/swarm-verified-fetch#readme",
@@ -317,20 +317,20 @@ console.log(response.contentHash, rules.title);`,
     sponsor: "Swarm",
     status: "Package shipped on npm + wired into TruthMarket",
     summary:
-      "@truth-market/swarm-kv — a familiar get / put / list / delete on Swarm. No feeds, topics, SOCs, or manifests in the developer's face.",
+      "@veritas-market/swarm-kv — a familiar get / put / list / delete on Swarm. No feeds, topics, SOCs, or manifests in the developer's face.",
     fitTagline: "Decentralized storage that feels like localStorage.",
     fit:
       "Most developers do not want to think about feeds, topics, manifests, SOCs, and postage just to save app data. Swarm KV wraps those primitives into a familiar interface so dApps can store profiles, indexes, agent memory, and read models without falling back to a centralized DB. TruthMarket uses it for discovery indexes and read models around the protocol — never for rules, outcomes, votes, or payouts.",
     pitchHighlights: [
       "get / put / list / delete · like localStorage, persistent",
       "Feeds, topics, SOCs hidden behind one promise-first API",
-      "Verified reads via @truth-market/swarm-verified-fetch",
+      "Verified reads via @veritas-market/swarm-verified-fetch",
       "Strings, JSON, bytes, large values, optional encryption",
     ],
     implemented: [
       "Supports strings, JSON, bytes, ArrayBuffer, and Blob-like values.",
       "Provides put, get, getJson, getString, getBytes, list, delete, has, and async entries iteration.",
-      "Verifies every read through @truth-market/swarm-verified-fetch before decoding values.",
+      "Verifies every read through @veritas-market/swarm-verified-fetch before decoding values.",
       "Maintains an immutable index document with revisions, tombstones, topics, and previous references.",
       "Postage batch reuse, large payload limits, optional encrypted private mode, and feed pointers.",
       "Serialized writes with an ifIndexReference optimistic guard for safer concurrent updates.",
@@ -344,7 +344,7 @@ console.log(response.contentHash, rules.title);`,
     ],
     apiExample: {
       title: "API usage: app data on verified Swarm storage",
-      code: `import { createSwarmKvStore, fixedPostage } from "@truth-market/swarm-kv";
+      code: `import { createSwarmKvStore, fixedPostage } from "@veritas-market/swarm-kv";
 
 const store = createSwarmKvStore({
   beeApiUrl: process.env.SWARM_KV_BEE_API_URL,
@@ -434,7 +434,7 @@ return {
       headline: "Decentralized storage that feels like localStorage.",
       body: "Lead with get/put/list/delete, then show that every read is verified Swarm under the hood.",
       primaryLabel: "Open npm package",
-      primaryHref: "https://www.npmjs.com/package/@truth-market/swarm-kv",
+      primaryHref: "https://www.npmjs.com/package/@veritas-market/swarm-kv",
       secondaryLabel: "Read package docs",
       secondaryHref: "https://github.com/schaier-io/eth2026/tree/main/packages/swarm-kv#readme",
     },
@@ -875,16 +875,16 @@ const PUBLIC_TRUTH_MARKET_ROOT = "https://www.truth-market.xyz";
 
 export const jurorPackageLinks: JurorPackageLink[] = [
   {
-    name: "@truth-market/swarm-verified-fetch",
-    url: "https://www.npmjs.com/package/@truth-market/swarm-verified-fetch",
-    install: "npm install @truth-market/swarm-verified-fetch",
+    name: "@veritas-market/swarm-verified-fetch",
+    url: "https://www.npmjs.com/package/@veritas-market/swarm-verified-fetch",
+    install: "npm install @veritas-market/swarm-verified-fetch",
     description:
       "Fetch-shaped Swarm gateway reads with local CAC/BMT, manifest, and SOC/feed verification.",
   },
   {
-    name: "@truth-market/swarm-kv",
-    url: "https://www.npmjs.com/package/@truth-market/swarm-kv",
-    install: "npm install @truth-market/swarm-kv",
+    name: "@veritas-market/swarm-kv",
+    url: "https://www.npmjs.com/package/@veritas-market/swarm-kv",
+    install: "npm install @veritas-market/swarm-kv",
     description:
       "Developer-friendly get, put, list, delete, and entries on top of verified Swarm storage.",
   },

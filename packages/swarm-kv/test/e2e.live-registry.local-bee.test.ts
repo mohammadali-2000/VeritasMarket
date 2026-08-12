@@ -3,7 +3,7 @@ import { dirname, resolve } from "node:path";
 
 import { beforeAll, beforeEach, describe, expect, it } from "vitest";
 
-import { bytesToHex, keccak256 } from "@truth-market/swarm-verified-fetch";
+import { bytesToHex, keccak256 } from "@veritas-market/swarm-verified-fetch";
 
 import { createSwarmKvStore, type PutResult, type SwarmKvStore } from "../src/index.js";
 import { byteLength, logE2eRead, logE2eStep, logE2eTestStart, traceE2ePut } from "./e2e-log.js";
@@ -26,14 +26,14 @@ if (liveConfig.usingPublicGatewayFallback && beeApiUrl) {
 const createdAt = new Date("2026-05-09T12:00:00.000Z").toISOString();
 const packageMetadata = {
   schema: "truthmarket.swarm-registry.package.v1",
-  name: "@truth-market/swarm-verified-fetch",
+  name: "@veritas-market/swarm-verified-fetch",
   description: "Fetch-shaped Swarm gateway reads with client-side verification.",
   tags: ["swarm", "verified-fetch", "gateway"],
   createdAt
 };
 const releaseMetadata = {
   schema: "truthmarket.swarm-registry.release.v1",
-  name: "@truth-market/swarm-verified-fetch",
+  name: "@veritas-market/swarm-verified-fetch",
   version: "0.0.0-e2e",
   files: ["dist/index.js", "dist/index.d.ts"],
   createdAt
@@ -41,7 +41,7 @@ const releaseMetadata = {
 const readme = [
   "# Live Swarm Registry E2E",
   "",
-  "This document was published through @truth-market/swarm-kv and verified through @truth-market/swarm-verified-fetch."
+  "This document was published through @veritas-market/swarm-kv and verified through @veritas-market/swarm-verified-fetch."
 ].join("\n");
 const tarballBytes = patternedBytes(4096 * 4 + 123);
 

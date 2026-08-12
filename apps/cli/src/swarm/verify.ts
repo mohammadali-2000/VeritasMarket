@@ -6,7 +6,7 @@ import {
   normalizeHex,
   verifiedFetch,
   type FetchLike,
-} from "@truth-market/swarm-verified-fetch";
+} from "@veritas-market/swarm-verified-fetch";
 import { truthMarketAbi } from "../abi.js";
 import type { ResolvedConfig } from "../config.js";
 import { CliError } from "../errors.js";

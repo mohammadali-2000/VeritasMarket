@@ -1,4 +1,6 @@
 allowBuilds:
-  '@reown/appkit': set this to true or false
-  protobufjs: set this to true or false
-  sharp: set this to true or false
+  '@reown/appkit': true
+  esbuild: true
+  protobufjs: true
+  sharp: true
+  workerd: true

@@ -1,4 +1,4 @@
-import { createSwarmKvStore, fixedPostage } from "@truth-market/swarm-kv";
+import { createSwarmKvStore, fixedPostage } from "@veritas-market/swarm-kv";
 
 const beeApiUrl = process.env.SWARM_KV_BEE_API_URL ?? "http://localhost:1633";
 const postageBatchId = process.env.SWARM_POSTAGE_BATCH_ID;
