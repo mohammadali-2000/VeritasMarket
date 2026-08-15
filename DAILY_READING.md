@@ -9,3 +9,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-08-14
 - **Topic**: GLM-5.3: Frontier Coding with Emergent Cyber Capabilities
 - **Link**: https://z.ai/blog/glm-5.3
+
+### 2026-08-15
+- **Topic**: Qwen 3.8 27B
+- **Link**: https://huggingface.co/Qwen/Qwen3.8-27B-FP8
