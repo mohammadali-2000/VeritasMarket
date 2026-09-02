@@ -29,3 +29,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-02
 - **Topic**: Hang on to Your Firefox
 - **Link**: https://www.newsonaut.com/articles/hang-on-to-your-firefox
+
+### 2026-09-02
+- **Topic**: Claude Fable 5.1 and Claude Mythos 5.1
+- **Link**: https://www.anthropic.com/claude-fable-and-mythos-5-1
