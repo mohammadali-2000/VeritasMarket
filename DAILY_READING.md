@@ -25,3 +25,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-01
 - **Topic**: System architecture and code review.
 - **Note**: Continuous improvement and system maintenance.
+
+### 2026-09-02
+- **Topic**: Hang on to Your Firefox
+- **Link**: https://www.newsonaut.com/articles/hang-on-to-your-firefox
