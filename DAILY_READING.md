@@ -33,3 +33,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-02
 - **Topic**: Claude Fable 5.1 and Claude Mythos 5.1
 - **Link**: https://www.anthropic.com/claude-fable-and-mythos-5-1
+
+### 2026-09-03
+- **Topic**: Muse Spark 1.3
+- **Link**: https://developer.meta.com/ai/models/muse-spark/
