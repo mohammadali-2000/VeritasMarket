@@ -37,3 +37,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-03
 - **Topic**: Muse Spark 1.3
 - **Link**: https://developer.meta.com/ai/models/muse-spark/
+
+### 2026-09-04
+- **Topic**: GPT-6 Astra
+- **Link**: https://openai.com/index/gpt-6-astra/
