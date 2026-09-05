@@ -41,3 +41,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-04
 - **Topic**: GPT-6 Astra
 - **Link**: https://openai.com/index/gpt-6-astra/
+
+### 2026-09-05
+- **Topic**: Why are European countries moving their gold out of North America?
+- **Link**: https://www.bbc.com/news/articles/cvgyn8q8gqxo
