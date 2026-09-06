@@ -49,3 +49,7 @@ This file tracks daily tech articles and learnings as proof of work.
 ### 2026-09-06
 - **Topic**: The Luxuries in Life
 - **Link**: https://feld.com/archives/2026/09/the-real-luxuries-in-life/
+
+### 2026-09-06
+- **Topic**: Cloud in a Bottle: making self-hosting accessible to everyone
+- **Link**: https://cloudinabottle.org/blog/launch-post
